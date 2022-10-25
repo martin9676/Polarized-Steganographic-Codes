@@ -1,7 +1,7 @@
 # Polarized Steganographic Codes (PSC)
 
 This repository contains the released version of the Polarized Steganographic Codes (PSC).  
-Developed in C++20 and compiled as MATLAB MEX file.  
+Developed in C++20 and compiled in MATLAB MEX file.  
 
 PSC is a series of steganographic coding schemes that are designed with polar codes and successive cancellation-based decoding schemes. Compared with Syndrome-Trellis Codes (STC), the PSC series has higher embedding efficiency with lower coding complexity. It can be easily extended and further improved according to the requirements of the specific task. PSC series is a new type of near-optimal steganographic code that very suitable for large-scale practical steganography applications.  
 
@@ -19,6 +19,11 @@ Please download MEX function(s) of the PSC series at the [Releases section](http
 
 Martin Fu: martin9676@hotmail.com
 
+### Performance
+
+![The comparison results of the embedding efficiency $e=M/D(\mathbf{y})$ and the steganographic throughput $T=N/\tau$](https://github.com/martin9676/Polarized-Steganographic-Codes/performance/efficiency.png)  
+![The anti-analysis perofrmance on image steganography, BOSSBase images sized 512. Left: JPEG quality 85; right: JPEG quality 90.](https://github.com/martin9676/Polarized-Steganographic-Codes/performance/steganalysis.png)  
+
 ### Prerequisites
 
  - Windows operating system
@@ -35,8 +40,8 @@ Martin Fu: martin9676@hotmail.com
 
 ### Attentions
 
-The all released MEX are compiled at MATLAB R2020a with MSVC 14.32.31326.  
-All codes are tested on MATLAB R2020a and Windows 10 Pro for Workstations 21H2. 
+The all released MEX are compiled with MATLAB R2020a and MSVC 14.32.31326.  
+All codes are tested on MATLAB R2020a and Windows 10 Pro for Workstations 21H2.  
 Note that currently only the Windows platform with 64-bit architecture is supported.  
 
 ### Acknowledgement
