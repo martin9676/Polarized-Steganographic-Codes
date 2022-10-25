@@ -21,8 +21,10 @@ Martin Fu: martin9676@hotmail.com
 
 ### Performance
 
-![The comparison results of the embedding efficiency $e=M/D(\mathbf{y})$ and the steganographic throughput $T=N/\tau$](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/performance/efficiency.png)  
-![The anti-analysis perofrmance on image steganography, BOSSBase images sized 512. Left: JPEG quality 85; right: JPEG quality 90.](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/performance/steganalysis.png)  
+ - The comparison results of the embedding efficiency $e=M/D(\mathbf{y})$ and the steganographic throughput $T=N/\tau$.  
+![Efficiency](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/performance/efficiency.png)  
+ - The anti-analysis perofrmance on image steganography, BOSSBase images sized 512. Left: JPEG quality 85; right: JPEG quality 90.  
+![Steganalysis](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/performance/steganalysis.png)  
 
 ### Prerequisites
 
