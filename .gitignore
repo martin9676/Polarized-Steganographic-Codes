@@ -9,3 +9,4 @@ performance/data.csv
 performance/efficiency.py
 performance/steganalysis.py
 performance/image.csv
+.gitignore
