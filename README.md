@@ -15,7 +15,7 @@ Please download MEX function(s) of the PSC series at the [Releases section](http
 - [x] binary Sub-Polarized Steganographic Codes (bSPSC)
 - [ ] ternary Sub-Polarized Steganographic Codes (tSPSC)
 
-### Get us contacted
+### Contact us
 
 Martin Fu: martin9676@hotmail.com
 
