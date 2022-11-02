@@ -1,14 +1,14 @@
-# Polarized Steganographic Codes (PSC)
+# Sub-Polarized Steganographic Codes (SPSC)
 
-This repository contains the released version of the Polarized Steganographic Codes (PSC).  
+This repository contains the released version of the Sub-Polarized Steganographic Codes (SPSC).  
 Developed in C++20 and compiled in MATLAB MEX file.  
 
-PSC is a series of steganographic coding schemes that are designed with polar codes and successive cancellation-based decoding schemes. Compared with Syndrome-Trellis Codes (STC), the PSC series has higher embedding efficiency with lower coding complexity. It can be easily extended and further improved according to the requirements of the specific task. PSC series is a new type of near-optimal steganographic code that very suitable for large-scale practical steganography applications.  
+SPSC is a steganographic coding schemes that are designed with polar codes and successive cancellation-based decoding schemes. Compared with Syndrome-Trellis Codes (STC), the SPSC has higher embedding efficiency with lower coding complexity. It can be easily extended and further improved according to the requirements of the specific task. SPSC is a new type of near-optimal steganographic code that very suitable for large-scale practical steganography applications.  
 
 ***The comments and suggestions are welcomed by all interested researchers. We also recommend generating stego samples with these MEX functions as well as comparing this with other prominent coding schemes with any type of covers under any distortion functions. We would be very grateful if you could send us comparison results with the [template](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/performance/template.xlsx) we prepared.***  
 
 The Toolbox of STC (also containing MEX functions) can be donwloaded at [here](http://dde.binghamton.edu/download/syndrome/).  
-Please download MEX function(s) of the PSC series at the [Releases section](https://github.com/martin9676/Polarized-Steganographic-Codes/releases) of this repository.  
+Please download MEX function(s) of the SPSC series at the [Releases section](https://github.com/martin9676/Polarized-Steganographic-Codes/releases) of this repository.  
 
 ### Current Road map
 
