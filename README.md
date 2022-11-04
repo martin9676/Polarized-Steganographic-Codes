@@ -12,10 +12,10 @@ This work has been accepted by [the 21st International Workshop on Digital-foren
 
 SPSC is a steganographic coding schemes that are designed with polar codes and successive cancellation-based decoding schemes. Compared with Syndrome-Trellis Codes (STC), the SPSC has higher embedding efficiency with lower coding complexity. It can be easily extended and further improved according to the requirements of the specific task. SPSC is a new type of near-optimal steganographic code that very suitable for large-scale practical steganography applications.  
 
-***The comments and suggestions are welcomed by all interested researchers. We also recommend generating stego samples with these MEX functions as well as comparing this with other prominent coding schemes with any type of covers under any distortion functions. We would be very grateful if you could send us comparison results with the [template](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/performance/template.xlsx) we prepared.***  
+***The comments and suggestions are welcomed by all interested researchers. We also recommend generating stego samples with these MEX functions as well as comparing this with other prominent coding schemes with any type of covers under any distortion functions. We would be very grateful if you could send us comparison results with the [template](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/performance/template.xlsx) we prepared, or you could just feedback us in the [Issue section](https://github.com/martin9676/Polarized-Steganographic-Codes/issues) with Markdown table.***  
 
 The Toolbox of STC (also containing MEX functions) can be donwloaded at [here](http://dde.binghamton.edu/download/syndrome/).  
-Please download MEX function(s) of the SPSC series at the [Releases section](https://github.com/martin9676/Polarized-Steganographic-Codes/releases) of this repository.  
+Please download MEX function(s) of the SPSC series in the [Releases section](https://github.com/martin9676/Polarized-Steganographic-Codes/releases) of this repository.  
 The interface of the released version of SPSC could be referred at the [Wiki Page](https://github.com/martin9676/Polarized-Steganographic-Codes/wiki/SPSC:-Sub-Polarized-Steganographic-Codes).  
 
 ### Current Road map
