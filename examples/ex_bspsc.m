@@ -4,12 +4,12 @@
 %   *Author:        Martin
 %   *Function 1:    bpsc_embed
 %   *Param:         [in]    <cover>             The array of cover, storage as int32, must be a 1*N row vector
-%                   [in]    <costs>             The modification costs of cover, storage as signgle, must be a 1*N of row vector
+%                   [in]    <costs>             The modification costs of cover, storage as single, must be a 1*N of row vector
 %                   [in]    <message>           The array of message, storage as uint8, must be a 1*M of row vector
-%                   [in]    <list_size>         Optional, the list size of the encoder, the default value is 8
+%                   [in]    <list_size>         Optional, the list size of the encoder, the default value is 1
 %                   [in]    <verbose>           Optional, whether to display the steganographic coding information in detail or not, default is false
 %   *Return:        [out]   <distortion>        The total embedding distortion
-%                   [out]   <stego>             The array of stego, storage as int32
+%                   [out]   <stego>             The array of stego, of which LSB will be modified, storage as int32
 %                   [out]   <n_msg_bits>        The total number of embedded message bits M
 %   *Function 2:    bpsc_extract
 %   *Param:         [in]    <stego>             The array of stego, storage as int32, must be a 1*N row vector
@@ -23,10 +23,11 @@
 % *********************************************************************************
 
 clear; clc;
+addpath('..\library');
 
 n = 20;                             % The base of code
 N = 2 ^ n;                          % Total length of the simulated cover
-alpha = 0.25;                        % Relative payload
+alpha = 0.4;                        % Relative payload
 list_size = 8;                      % The list size of the encoder
 profile = "square";                 % Distortion profile. constant, linear, square are supported
 
