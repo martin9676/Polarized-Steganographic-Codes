@@ -15,7 +15,8 @@ SPSC is a steganographic coding schemes that are designed with polar codes and s
 ***The comments and suggestions are welcomed by all interested researchers. We also recommend generating stego samples with these MEX functions as well as comparing this with other prominent coding schemes with any type of covers under any distortion functions. We would be very grateful if you could send us comparison results with the [template](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/performance/template.xlsx) we prepared.***  
 
 The Toolbox of STC (also containing MEX functions) can be donwloaded at [here](http://dde.binghamton.edu/download/syndrome/).  
-Please download MEX function(s) of the SPSC series at the [Releases section](https://github.com/martin9676/Polarized-Steganographic-Codes/releases) of this repository. 
+Please download MEX function(s) of the SPSC series at the [Releases section](https://github.com/martin9676/Polarized-Steganographic-Codes/releases) of this repository.  
+The interface of the released version of SPSC could be referred at the [Wiki Page](https://github.com/martin9676/Polarized-Steganographic-Codes/wiki/SPSC:-Sub-Polarized-Steganographic-Codes).  
 
 ### Current Road map
 
