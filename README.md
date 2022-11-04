@@ -3,7 +3,7 @@
 This repository contains the released version of the Sub-Polarized Steganographic Codes (SPSC).  
 Developed in C++20 and compiled in MATLAB MEX file.  
 
-**Haocheng Fu, [Xianfeng Zhao](http://www.sklois.cn/rcdw/zg/202006/t20200624_565804.html) and Xiaolei He, [High-Performance Steganographic Coding Based on Sub-Polarized Channel](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/publications/high-performance.steganographic.coding.based.on.sub-polarized.channel.pdf)**  
+**Haocheng Fu, Xianfeng Zhao and Xiaolei He\*, [High-Performance Steganographic Coding Based on Sub-Polarized Channel](https://github.com/martin9676/Polarized-Steganographic-Codes/blob/main/publications/high-performance.steganographic.coding.based.on.sub-polarized.channel.pdf)**  
 State Key Laboratory of Information Security, Institute of Information Engineering, Chinese Academy of Sciences  
 This work has been accepted by [the 21st International Workshop on Digital-forensics and Watermarking (IWDW 2022)](http://iwdw.site/), Guilin, China, 19-21 November, 2022.  
 
