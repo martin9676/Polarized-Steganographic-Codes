@@ -2,7 +2,7 @@
 %   *Brief:         Binary steganographic coding example with Polarized 
 %                   Steganographic Codes (PSC) which is compiled as a MATLAB MEX function. 
 %   *Author:        Martin
-%   *Function 1:    bpsc_embed
+%   *Function 1:    bspsc_embed
 %   *Param:         [in]    <cover>             The array of cover, storage as int32, must be a 1*N row vector
 %                   [in]    <costs>             The modification costs of cover, storage as single, must be a 1*N of row vector
 %                   [in]    <message>           The array of message, storage as uint8, must be a 1*M of row vector
@@ -11,7 +11,7 @@
 %   *Return:        [out]   <distortion>        The total embedding distortion
 %                   [out]   <stego>             The array of stego, of which LSB will be modified, storage as int32
 %                   [out]   <n_msg_bits>        The total number of embedded message bits M
-%   *Function 2:    bpsc_extract
+%   *Function 2:    bspsc_extract
 %   *Param:         [in]    <stego>             The array of stego, storage as int32, must be a 1*N row vector
 %                   [in]    <n_msg_bits>        The total number of embedded message bits M
 %   *Return:        [out]   <ext_msg>           The array of the extracted message, storage as uint8, which is a 1*M row vector
