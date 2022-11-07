@@ -23,7 +23,7 @@ The interface of the released version of SPSC could be referred at the [Wiki Pag
 - [x] binary Sub-Polarized Steganographic Codes (bSPSC)
 - [ ] ternary Sub-Polarized Steganographic Codes (tSPSC)
 
-The current executable functions of SPSC is a pre-released version. Except that the calculation of optimal embedding probabilities is accelerated using SIMD instructions, the main part of this implementation does not use any acceleration/optimization strategy. Some acceleration methods might be introduced in the future if possible.  
+The current executable functions of SPSC is a [pre-released version](https://github.com/martin9676/Polarized-Steganographic-Codes/releases). Except that the calculation of optimal embedding probabilities is accelerated using SIMD instructions, the main part of this implementation **does not use any acceleration/optimization strategy**. Some acceleration methods might be introduced in the future release if possible.  
 
 ### Contact us
 
